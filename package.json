@@ -1,0 +1,29 @@
+{
+  "name": "enforcing-boundaries",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@nx/eslint": "^19.8.3",
+    "@nx/eslint-plugin": "^19.8.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nx": "19.8.3",
+    "prettier": "^3.3.3",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.5.4"
+  },
+  "nx": {}
+}

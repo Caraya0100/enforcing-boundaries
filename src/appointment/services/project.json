@@ -1,0 +1,7 @@
+{
+  "name": "appointment-services",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "src/appointment/services",
+  "projectType": "library",
+  "tags": ["scope:appointment", "type:services"]
+}
