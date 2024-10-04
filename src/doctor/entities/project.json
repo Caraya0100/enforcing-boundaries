@@ -3,5 +3,5 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "src/doctor/entities",
   "projectType": "library",
-  "tags": ["scope:doctor", "type:entity"]
+  "tags": ["scope:doctor", "type:entities"]
 }

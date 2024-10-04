@@ -27,15 +27,12 @@ module.exports = {
         allow: [],
         depConstraints: [
           {
-            sourceTag: 'type:entity',
-            onlyDependOnLibsWithTags: ['type:entity'],
+            sourceTag: 'type:entities',
+            onlyDependOnLibsWithTags: ['type:entities'],
           },
           {
             sourceTag: 'type:service',
-            onlyDependOnLibsWithTags: [
-              'type:service',
-              'type:entity',
-            ],
+            onlyDependOnLibsWithTags: ['type:service', 'type:entities'],
           },
           {
             sourceTag: 'scope:appointment',
